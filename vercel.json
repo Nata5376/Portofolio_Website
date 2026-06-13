@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "portofolio_project/wsgi.py",
+      "src": "portofolio_project/asgi.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "portofolio_project/wsgi.py"
+      "dest": "portofolio_project/asgi.py"
     }
   ]
 }
