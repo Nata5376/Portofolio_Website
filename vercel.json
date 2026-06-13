@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "portofolio_project/asgi.py",
+      "src": "api/index.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "portofolio_project/asgi.py"
+      "dest": "api/index.py"
     }
   ]
 }
